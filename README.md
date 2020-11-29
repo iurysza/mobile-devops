@@ -17,15 +17,14 @@ The idea is to write a bunch of articles. Each article should target one or more
 	- [ ] [Trustworthy Online Experiments](https://www.amazon.com.br/Trustworthy-Online-Controlled-Experiments-Practical/dp/1108724264)
 
 
-# Learn by writing
-## Article ideas
-## CI/CD at conceptual level 
+# Learn by writing (article ideas)
+## [CI/CD at conceptual level](https://github.com/iurysza/mobile-devops/tree/master/foundation)
 Book reviews
 - The DevOps handbook
 - Hands-on continuous integration and delivery
 - The Twelve-Factor App
 
-## Deployment/Release decoupling
+## [Deployment/Release decoupling](https://github.com/iurysza/mobile-devops/tree/master/deployment-release-decoupling)
 - multiple strategies
 - Feature Toggles
 - Experimentation: A/B Tests
@@ -35,7 +34,7 @@ Book reviews
 - startups
 - super-apps with millions of users 
 - Private library projects 
-- OSS libraries.
+- OSS libraries
 
 ## Start simple, basic automation:
 Use kotlin-scaffold project as the template 
@@ -71,7 +70,7 @@ The pipeline here should provide clear feedback for whoever tries to open PRs on
     - [x] auto-installing pre-commit hook
     - [x] static analysis with `ktlint and `detekt`
     - [x] generates check-style reports that are parsed with a `danger-checkstyle` plugin
-	- [x] use `ngrok` to integrate with github webhook to trigger builds on local jenkins server
+	- [x] uses `ngrok` for github-webhook integration to trigger local jenkins server builds
     - [x] jenkins creates inline comments (based on the checkstyle reports) on PRs opened on the master branch
     - [ ] code coverage reports are used as a quality-gate
 	- [ ] setup jenkin's image so that it can build and run tests/instrumented tests for android
@@ -89,5 +88,5 @@ This was more intended to learn to publish Open source software.
 - Create tasks to generate version tags
 
 ### [flutter-scaffold](https://github.com/iurysza/flutter-scaffold)
-- Simple github action to handle CI/CD
+- Simple github-actions setup to handle CI/CD
 
