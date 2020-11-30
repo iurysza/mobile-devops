@@ -14,7 +14,7 @@ The idea is to write a bunch of articles. Each article should target one or more
 - [x] [Feature Flags](https://jeroenmols.com/blog/2019/08/13/featureflags/)
 - Experimentation
 	- [x] [Controlled Experiments: Crash Course Statistics](https://www.youtube.com/watch?v=kkBDa-ICvyY)
-	- [ ] [Trustworthy Online Experiments](https://www.amazon.com.br/Trustworthy-Online-Controlled-Experiments-Practical/dp/1108724264)
+	- [ ] [Trustworthy Online Experiments](https://www.amazon.com.br/Trustworthy-Online-Controlled-Experiments-Practical/dp/1108724264) - [Notes](https://github.com/iurysza/mobile-devops/tree/master/deployment-release-decoupling/trustworthy-online-controlled-experiments-notes.md)
 
 
 # Learn by writing (article ideas)
@@ -68,8 +68,8 @@ The pipeline here should provide clear feedback for whoever tries to open PRs on
 
 - Implemented CD practices:
     - [x] auto-installing pre-commit hook
-    - [x] static analysis with `ktlint and `detekt`
-    - [x] generates check-style reports that are parsed with a `danger-checkstyle` plugin
+    - [x] static analysis with `ktlint` and `detekt`
+    - [x] generates check-style reports that are parsed with a custom `danger-checkstyle` plugin
 	- [x] uses `ngrok` for github-webhook integration to trigger local jenkins server builds
     - [x] jenkins creates inline comments (based on the checkstyle reports) on PRs opened on the master branch
     - [ ] code coverage reports are used as a quality-gate
