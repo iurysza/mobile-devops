@@ -19,6 +19,10 @@ The idea is to write a bunch of articles. Each article should target one or more
 
 # Learn by writing (article ideas)
 ## [CI/CD at conceptual level](https://github.com/iurysza/mobile-devops/tree/master/foundation)
+Published articles:
+- [Part 1](https://dev.to/iurysza/introduction-jg5)
+- [Part 2](https://dev.to/iurysza/part-2-automation-454g)
+
 Book reviews
 - The DevOps handbook
 - Hands-on continuous integration and delivery
