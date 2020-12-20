@@ -44,6 +44,7 @@ for the articles
 - concept
 - tools
 - approaches
+[Article](https://dev.to/iurysza/continuous-kotlin-static-analysis-2l2o)
 
 **Testing**:
 - Making sense of coverage reports
