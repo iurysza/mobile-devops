@@ -3,7 +3,7 @@
 This project is a way for me to document what I learn about CI/CD concepts and ideas. 
 Keep in mind that I'm obviously biased by my own perspective, a software engineer with a
 background focused in mobile development and that I may also get a lot of stuff wrong.
-This should probably be a private project, but  ¯\_(ツ)_/¯
+This should probably be a private project, but  ¯\\_(ツ)_/¯
 
 The idea is to write a bunch of articles. Each article should target one or more of the following topics:
 # Learn by reading
@@ -40,11 +40,11 @@ Book reviews
 Use kotlin-scaffold project as the template 
 for the articles
 
-**Static Analysis**:
+**Static Analysis**: [Article](https://dev.to/iurysza/continuous-kotlin-static-analysis-2l2o)
 - concept
 - tools
 - approaches
-[Article](https://dev.to/iurysza/continuous-kotlin-static-analysis-2l2o)
+
 
 **Testing**:
 - Making sense of coverage reports
